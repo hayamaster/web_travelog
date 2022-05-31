@@ -1,13 +1,10 @@
 {
   "files": {
-    "main.css": "/web_travelog/static/css/main.9c369571.css",
-    "main.js": "/web_travelog/static/js/main.b4004713.js",
+    "main.css": "/web_travelog/static/css/main.146a764c.css",
+    "main.js": "/web_travelog/static/js/main.900e8958.js",
     "static/media/title.png": "/web_travelog/static/media/title.72ec62d2888580050dc0.png",
     "static/media/2_2.jpeg": "/web_travelog/static/media/2_2.649dd1fbad3df3db57bd.jpeg",
-    "static/media/chile2.jpg": "/web_travelog/static/media/chile2.65679f689af0df091d8a.jpg",
-    "static/media/chile3.jpg": "/web_travelog/static/media/chile3.70835b0e334544bae1cc.jpg",
-    "static/media/chile1.jpg": "/web_travelog/static/media/chile1.aa73fa5d1927344de586.jpg",
-    "static/media/argentina.jpg": "/web_travelog/static/media/argentina.9b2611bda788abf4cdb6.jpg",
+    "static/media/Thailand.jpg": "/web_travelog/static/media/Thailand.50b85397895199b27362.jpg",
     "static/media/1_2.jpeg": "/web_travelog/static/media/1_2.30ba7669afd740091f4f.jpeg",
     "static/media/bolivia3.jpg": "/web_travelog/static/media/bolivia3.50520355ad91968b1bf1.jpg",
     "static/media/1_1.jpeg": "/web_travelog/static/media/1_1.e2a22e08d0cdd7794276.jpeg",
@@ -19,11 +16,11 @@
     "static/media/report.png": "/web_travelog/static/media/report.f9254a461df6967d4b1b.png",
     "static/media/programmer.png": "/web_travelog/static/media/programmer.e17a77368d42027b254f.png",
     "index.html": "/web_travelog/index.html",
-    "main.9c369571.css.map": "/web_travelog/static/css/main.9c369571.css.map",
-    "main.b4004713.js.map": "/web_travelog/static/js/main.b4004713.js.map"
+    "main.146a764c.css.map": "/web_travelog/static/css/main.146a764c.css.map",
+    "main.900e8958.js.map": "/web_travelog/static/js/main.900e8958.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c369571.css",
-    "static/js/main.b4004713.js"
+    "static/css/main.146a764c.css",
+    "static/js/main.900e8958.js"
   ]
 }
