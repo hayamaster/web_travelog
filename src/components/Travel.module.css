@@ -1,10 +1,10 @@
 .travel {
-    background-color: beige;
+    background-color: #e3f6ff;
     margin-bottom: 70px;
-    font-weight: 300;
     padding: 20px;
     border-radius: 5px;
     color: #adaeb9;
+    font-weight:400;
     /* display: grid; */
     grid-gap: 20px;
     text-decoration: none;
