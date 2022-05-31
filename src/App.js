@@ -5,6 +5,7 @@ import {
 } from "react-router-dom";
 import Home from "./routes/Home";
 import Detail from "./routes/Detail";
+import Spec from "./routes/Spec";
 import Main from "./routes/Main";
 import style from "./App.module.css";
 import Menu from "./components/Menu";
@@ -23,7 +24,7 @@ function App() {
     <div className={style.style}>
       <Routes>
         <Route path={`${process.env.PUBLIC_URL}/`} element={<Main/>} />
-        <Route path="/spot/:id" element={<Detail/>}/>
+        <Route path="/spot/1003" element={<Spec/>}/>
         <Route path="/domestic"  element={<Home/>}/>
         <Route path="/international" element={<International/>}/>
       </Routes>

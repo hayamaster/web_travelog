@@ -1,10 +1,6 @@
 import { useEffect, useState } from "react";
 import Travel from "../components/Travel";
 import styles from "./Home.module.css";
-import argentina from '../images/argentina.jpg';
-import chile1 from '../images/chile1.jpg';
-import chile2 from '../images/chile2.jpg';
-import chile3 from '../images/chile3.jpg';
 import Japan from '../images/2_3.jpg';
 import Thailand from '../images/2_4.jpeg';
 import Bolivia from '../images/bolivia3.jpg';
@@ -12,7 +8,7 @@ import Egypt from '../images/2_2.jpeg';
 
 const images = [{
   src: Bolivia, title: 'Bolivia', link: 'https://www.instagram.com/p/B_aYNk-JdTZ/'
-  ,summary: "이건 첫 번째"
+  ,summary: "다른 곳에선 느낄 수 없는 광활한 자연과 세상에서 가장 큰 거울을 가지고 있는 나라"
 }, {
   src: Egypt, title: 'Egypt', link: 'https://www.instagram.com/p/CGrRHvoJhhC/',
   summary: "아름다고 신비로운 홍해 탐험과 고대 이집트의 위대한 역사를 느껴보자!"
@@ -49,7 +45,7 @@ function International(){
                   {images.map((item,index) => (
                       <Travel
                           key={index}
-                          id = {index + 100}
+                          id = {index + 1000}
                           image = {item.src}
                           title = {item.title}
                           summary = {item.summary}

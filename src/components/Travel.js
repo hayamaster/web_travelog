@@ -5,11 +5,9 @@ import styles from "./Travel.module.css";
 function Travel({id, image, title, summary}){
     return (
         <div className={styles.travel}>
-            <img src={image} alt={title} className={styles.travel_img}/>            
+            <Link to={`/spot/${id}`}><img src={image} alt={title} className={styles.travel_img}/>  </Link>  
             <div>
-                <h2 className={styles.travel_title}>
-                    <Link to={`/spot/${id}`}>{title}</Link>
-                </h2>
+                <h2 className={styles.travel_title}>{title}</h2>
                 <p>{summary.length > 200 ? `${summary.slice(0, 200)}...` : summary}</p>
             </div>
         
