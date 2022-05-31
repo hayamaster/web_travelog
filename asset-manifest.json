@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/web_travelog/static/css/main.3d1c8963.css",
-    "main.js": "/web_travelog/static/js/main.2aed11ff.js",
+    "main.js": "/web_travelog/static/js/main.2e11d9b6.js",
     "static/media/title.png": "/web_travelog/static/media/title.72ec62d2888580050dc0.png",
     "static/media/2_2.jpeg": "/web_travelog/static/media/2_2.649dd1fbad3df3db57bd.jpeg",
     "static/media/Thailand.jpg": "/web_travelog/static/media/Thailand.50b85397895199b27362.jpg",
@@ -17,10 +17,10 @@
     "static/media/programmer.png": "/web_travelog/static/media/programmer.e17a77368d42027b254f.png",
     "index.html": "/web_travelog/index.html",
     "main.3d1c8963.css.map": "/web_travelog/static/css/main.3d1c8963.css.map",
-    "main.2aed11ff.js.map": "/web_travelog/static/js/main.2aed11ff.js.map"
+    "main.2e11d9b6.js.map": "/web_travelog/static/js/main.2e11d9b6.js.map"
   },
   "entrypoints": [
     "static/css/main.3d1c8963.css",
-    "static/js/main.2aed11ff.js"
+    "static/js/main.2e11d9b6.js"
   ]
 }
