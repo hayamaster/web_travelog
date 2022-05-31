@@ -22,12 +22,12 @@ function Btn({text, click, flag}){
 
 function Click1(){
     return (
-        window.location.href='/domestic'    
+        window.location.href='/domestic'
     );
 }
 function Click2(){
     return (
-        window.location.href='/international'    
+        window.location.href='/international'
     );
 }
 
