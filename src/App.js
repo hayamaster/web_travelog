@@ -25,12 +25,11 @@ function App() {
   <Router>
     <header className={style.header}>
         <img src={Bener} className={style.header}/>
-      {/* <h1 className={style.h1}>Time to travelog</h1> */}
     </header>
     <Menu/>
     <div className={style.style}>
       <Routes>
-        <Route path="/web_travelog" element={<Main/>} />
+        <Route path={`${process.env.PUBLIC_URL}/`} element={<Main/>} />
         <Route path="/spot/100" element={<Spec_Gangneung/>}/>
         <Route path="/spot/101" element={<Spec_Songdo/>}/>
         <Route path="/spot/102" element={<Spec_Suncheon/>}/>
