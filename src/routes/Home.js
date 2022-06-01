@@ -7,16 +7,16 @@ import Songdo from '../images/1_2.jpeg';
 import Ulleung from '../images/1_4.jpeg';
 
 const images = [{
-  src: Gangneung, title: '강원도 강릉', link: 'https://www.instagram.com/p/B_aYNk-JdTZ/'
-  ,summary: "여름, 겨울 바닷바람의 매력과 함께 강릉 바다 감성 즐기기"
+  src: Gangneung, title: '강원도 강릉',
+  summary: "여름, 겨울 바닷바람의 매력과 함께 강릉 바다 감성 즐기기"
 }, {
-  src: Songdo, title: '인천광역시 송도', link: 'https://www.instagram.com/p/CGrRHvoJhhC/',
+  src: Songdo, title: '인천광역시 송도', 
   summary: "호캉스 즐기기 좋은 송도 신도시, 이번 여름 더위를 송도 야경으로 여유있게 보내세요."
 }, {
-  src: Suncheon, title: '전라남도 순천', link: 'https://www.instagram.com/p/CGgxIt8J1xw/',
-  summary: "그럼 이건 몇 번쨰?"
+  src: Suncheon, title: '전라남도 순천', 
+  summary: "마음이 차분해지는 아름다운 자연이 있는 곳"
 }, {
-  src: Ulleung, title: '경상북도 울릉도', link: 'https://www.instagram.com/p/CRaxoRapTRb/',
+  src: Ulleung, title: '경상북도 울릉도', 
   summary: "때묻지 않은 자연의 보고, 아름다운 화산섬"
 }
 ]
@@ -39,7 +39,7 @@ function Home(){
         <div className={styles.container}>
             {loading ? (
                 <div className={styles.loader}>
-                    <span>Loading...</span>
+                    <span className={styles.span1}>Loading...</span>
                 </div>
             ) : (                  
                   <div className={styles.movies}>   
