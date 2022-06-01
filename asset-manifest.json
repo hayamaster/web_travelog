@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/web_travelog/static/css/main.3d1c8963.css",
-    "main.js": "/web_travelog/static/js/main.8c256dd6.js",
+    "main.js": "/web_travelog/static/js/main.32172503.js",
     "static/media/title.png": "/web_travelog/static/media/title.72ec62d2888580050dc0.png",
     "static/media/2_2.jpeg": "/web_travelog/static/media/2_2.649dd1fbad3df3db57bd.jpeg",
     "static/media/Japan.jpg": "/web_travelog/static/media/Japan.c4254c7c0da946d77759.jpg",
@@ -24,10 +24,10 @@
     "static/media/programmer.png": "/web_travelog/static/media/programmer.e17a77368d42027b254f.png",
     "index.html": "/web_travelog/index.html",
     "main.3d1c8963.css.map": "/web_travelog/static/css/main.3d1c8963.css.map",
-    "main.8c256dd6.js.map": "/web_travelog/static/js/main.8c256dd6.js.map"
+    "main.32172503.js.map": "/web_travelog/static/js/main.32172503.js.map"
   },
   "entrypoints": [
     "static/css/main.3d1c8963.css",
-    "static/js/main.8c256dd6.js"
+    "static/js/main.32172503.js"
   ]
 }
