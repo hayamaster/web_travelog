@@ -4,8 +4,14 @@ import {
   Route,
 } from "react-router-dom";
 import Home from "./routes/Home";
-import Detail from "./routes/Detail";
-import Spec from "./routes/Spec";
+import Spec_Thailand from "./routes/Spec_Thailand";
+import Spec_Suncheon from "./routes/Spec_Suncheon";
+import Spec_Gangneung from "./routes/Spec_Gangneung";
+import Spec_Songdo from "./routes/Spec_Songdo";
+import Spec_Ulleungdo from "./routes/Spec_Ulleungdo";
+import Spec_Japan from "./routes/Spec_Japan";
+import Spec_Bolivia from "./routes/Spec_Bolivia";
+import Spec_Egypt from "./routes/Spec_Egypt";
 import Main from "./routes/Main";
 import style from "./App.module.css";
 import Menu from "./components/Menu";
@@ -24,7 +30,14 @@ function App() {
     <div className={style.style}>
       <Routes>
         <Route path={`${process.env.PUBLIC_URL}/`} element={<Main/>} />
-        <Route path="/spot/1003" element={<Spec/>}/>
+        <Route path="/spot/100" element={<Spec_Gangneung/>}/>
+        <Route path="/spot/101" element={<Spec_Songdo/>}/>
+        <Route path="/spot/102" element={<Spec_Suncheon/>}/>
+        <Route path="/spot/103" element={<Spec_Ulleungdo/>}/>
+        <Route path="/spot/1000" element={<Spec_Bolivia/>}/>
+        <Route path="/spot/1001" element={<Spec_Egypt/>}/>
+        <Route path="/spot/1002" element={<Spec_Japan/>}/>
+        <Route path="/spot/1003" element={<Spec_Thailand/>}/>
         <Route path="/domestic"  element={<Home/>}/>
         <Route path="/international" element={<International/>}/>
       </Routes>
