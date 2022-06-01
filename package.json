@@ -21,7 +21,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build",
-    "predeploy": "npm run build"
+    "predeploy": "npm run build",
+    "dev": "webpack-dev-server"
   },
   "eslintConfig": {
     "extends": [
@@ -41,5 +42,21 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://hayamaster.github.io/web_travelog"
+  "homepage": "https://hayamaster.github.io/web_travelog",
+  "devDependencies": {
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.1"
+  },
+  "description": "react study as Movie chart 2022.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hayamaster/web_travelog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hayamaster/web_travelog/issues"
+  }
 }
