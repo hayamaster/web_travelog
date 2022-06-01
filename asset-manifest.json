@@ -1,10 +1,17 @@
 {
   "files": {
     "main.css": "/web_travelog/static/css/main.3d1c8963.css",
-    "main.js": "/web_travelog/static/js/main.2e11d9b6.js",
+    "main.js": "/web_travelog/static/js/main.8c256dd6.js",
     "static/media/title.png": "/web_travelog/static/media/title.72ec62d2888580050dc0.png",
     "static/media/2_2.jpeg": "/web_travelog/static/media/2_2.649dd1fbad3df3db57bd.jpeg",
+    "static/media/Japan.jpg": "/web_travelog/static/media/Japan.c4254c7c0da946d77759.jpg",
+    "static/media/Gangneung.jpg": "/web_travelog/static/media/Gangneung.36cccaaf4b4afb0ea3c2.jpg",
+    "static/media/Egypt.jpg": "/web_travelog/static/media/Egypt.ae524efb7cc73286fcbd.jpg",
+    "static/media/Songdo.jpg": "/web_travelog/static/media/Songdo.4f862bc383fc4306597e.jpg",
+    "static/media/Suncheon.jpg": "/web_travelog/static/media/Suncheon.0bec6264ccdf12bba0db.jpg",
     "static/media/Thailand.jpg": "/web_travelog/static/media/Thailand.50b85397895199b27362.jpg",
+    "static/media/Bolivia.jpg": "/web_travelog/static/media/Bolivia.1121aa5aa940a0032c95.jpg",
+    "static/media/Ulleungdo.jpg": "/web_travelog/static/media/Ulleungdo.26f754264ce638235fce.jpg",
     "static/media/1_2.jpeg": "/web_travelog/static/media/1_2.30ba7669afd740091f4f.jpeg",
     "static/media/bolivia3.jpg": "/web_travelog/static/media/bolivia3.50520355ad91968b1bf1.jpg",
     "static/media/1_1.jpeg": "/web_travelog/static/media/1_1.e2a22e08d0cdd7794276.jpeg",
@@ -17,10 +24,10 @@
     "static/media/programmer.png": "/web_travelog/static/media/programmer.e17a77368d42027b254f.png",
     "index.html": "/web_travelog/index.html",
     "main.3d1c8963.css.map": "/web_travelog/static/css/main.3d1c8963.css.map",
-    "main.2e11d9b6.js.map": "/web_travelog/static/js/main.2e11d9b6.js.map"
+    "main.8c256dd6.js.map": "/web_travelog/static/js/main.8c256dd6.js.map"
   },
   "entrypoints": [
     "static/css/main.3d1c8963.css",
-    "static/js/main.2e11d9b6.js"
+    "static/js/main.8c256dd6.js"
   ]
 }
