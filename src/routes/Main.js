@@ -6,31 +6,6 @@ import member3 from "./icon/report.png";
 import member4 from "./icon/presentation.png";
 
 
-// function Btn({text, click, flag}){
-//     return <button style={{
-//             backgroundColor: flag ? "tomato" : "aquamarine",
-//             color: flag ? "white" : "maroon",
-//             padding:"20px 40px",
-//             margin:"50px",
-//             border: 0,
-//             borderRadius: 10,
-//             fontSize: "20px"
-//     }} onClick={click}>
-//         {text}
-//     </button>
-// }
-
-// function Click1(){
-//     return (
-//         window.location.href='/domestic'
-//     );
-// }
-// function Click2(){
-//     return (
-//         window.location.href='/international'
-//     );
-// }
-
 function Main(){
     return (
         <div>
@@ -82,11 +57,6 @@ function Main(){
                     </div>
                 </div>
             </div>
-            
-            {/* <div className="button">
-                <Btn text="Domestic" click={Click1} flag={true}/>
-                <Btn text="International"  click={Click2} flag={true}/>
-            </div> */}
         </div>       
     )
 }

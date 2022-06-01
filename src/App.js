@@ -1,5 +1,6 @@
 import {
   HashRouter as Router,
+  BrowserRouter,
   Routes,
   Route,
 } from "react-router-dom";
@@ -20,7 +21,6 @@ import Bener from "./title.png";
 
 
 function App() {
-  // ${process.env.PUBLIC_URL}
   return (
   <Router>
     <header className={style.header}>
@@ -29,7 +29,7 @@ function App() {
     <Menu/>
     <div className={style.style}>
       <Routes>
-        <Route path={`${process.env.PUBLIC_URL}/`} element={<Main/>} />
+        <Route path="" element={<Main/>} />
         <Route path="/spot/100" element={<Spec_Gangneung/>}/>
         <Route path="/spot/101" element={<Spec_Songdo/>}/>
         <Route path="/spot/102" element={<Spec_Suncheon/>}/>

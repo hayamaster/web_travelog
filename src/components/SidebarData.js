@@ -5,7 +5,7 @@ import { IoIosAirplane } from "react-icons/io";
 export const SidebarData = [
   {
     title: 'Home',
-    path: `${process.env.PUBLIC_URL}/`,
+    path: '',
     icon: <BsIcons.BsFillHouseDoorFill />,
     Name: 'nav-text'
   },
